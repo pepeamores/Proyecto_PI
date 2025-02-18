@@ -15,7 +15,7 @@ aaa aaaaaaaaaaaaaaaaaaa
     </header>
 
     <form action="register.php" method="POST">
-        <label for="email">Correo electrónico</label>
+        <label for="email">Correo </label>
         <input type="email" name="email" id="email" required>
         
         <label for="password">Contraseña</label>
