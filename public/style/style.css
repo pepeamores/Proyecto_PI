@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header {
+    background: linear-gradient(to right, #4CAF50, #2c7a29);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.main-nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+.highlight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f4f4f9;
+}
+
+.highlight img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.highlight-text h2 {
+    font-size: 2.5rem;
+    color: #2c7a29;
+}
+
+.highlight-text p {
+    font-size: 1.2rem;
+    color: #2c7a29;
+}
+
+.interactive-sections {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.section-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.expand-btn {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.extra-content {
+    display: none;
+    margin-top: 10px;
+    color: #2c7a29;
+}
+
+.testimonials {
+    background-color: #333;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4CAF50;
+    color: #2c7a29;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: white;
+}
